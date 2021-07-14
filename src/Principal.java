@@ -1,3 +1,4 @@
+import java.util.Date;
 package src;
 
 public class Principal {
@@ -7,5 +8,10 @@ public class Principal {
 
         System.out.println(nome.getNome());
         System.out.println(pesoAtomico.getPesoAtomico());
+
+ 
+        Molecola nome = new Molecola("H2O");
+        Molecola pesoAtomico = new Molecola(8);
+
     }
 }

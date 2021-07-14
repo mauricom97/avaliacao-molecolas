@@ -1,15 +1,19 @@
+import java.util.Date;
 package src;
 
-public class Particula {
-    String nome;
-    double pesoAtomico;
+public abstract class Paticula {
+    
+    private String nome;
 
+        public Paticula( String nome;){
+            this.nome = nome;
+        }
 
-    String getNome(){
-        return nome;
-    }
+        public String getNome(){
+            return nome;
+        }
 
-    double getPesoAtomico(){
-        return pesoAtomico;
-    }
+        public abstract double getPesoAtomico(){
+            return 2 * 1.0073 + 2 * 1.0087 + 2 * 1 / 1836
+        } 
 }
